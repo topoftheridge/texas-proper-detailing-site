@@ -33,8 +33,8 @@ export default function ContactPage() {
                 <a href="mailto:texasproperdetailing@gmail.com" className="text-white hover:text-primary transition">texasproperdetailing@gmail.com</a>
               )},
               { icon: <MapPin className="w-6 h-6" />, label: "Location", content: <span className="text-white">Spring, TX</span> },
-              { icon: <Clock className="w-6 h-6" />, label: "Hours", content: <span className="text-white">Mon2013Sun: 6:30 AM 2013 7:30 PM</span> },
-              {/* Mon2013Sun: 6:30 AM 2013 7:30 PM e.g. "Monday – Sunday: 8:00 AM – 6:00 PM" */}
+              { icon: <Clock className="w-6 h-6" />, label: "Hours", content: <span className="text-white">Mon–Sun: 6:30 AM – 7:30 PM</span> },
+              {/* Mon–Sun: 6:30 AM – 7:30 PM e.g. "Monday – Sunday: 8:00 AM – 6:00 PM" */}
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-4 p-4 rounded-lg bg-dark-lighter border border-white/5">
                 <div className="text-primary mt-0.5">{item.icon}</div>

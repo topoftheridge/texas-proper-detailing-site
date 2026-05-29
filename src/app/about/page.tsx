@@ -21,7 +21,6 @@ export default function AboutPage() {
           <Hero
             title="Texas Proper Detailing"
             subtitle="Professional Mobile Auto Detailing in Spring, TX"
-            {/* e.g. "Professional Auto Detailing in [City], [State]" */}
             showCTA={false}
           />
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row gap-4 justify-center pb-12 -mt-20">
